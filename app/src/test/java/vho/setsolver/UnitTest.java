@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 import java.io.IOException;
 import java.util.List;
 
-public class SetProcessorTest {
+public class UnitTest {
     @Test
     public void setCardProcessTest() throws IOException {
         String testInput = Utils.readFileFromResource("test_set.txt");
